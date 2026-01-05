@@ -8,7 +8,7 @@ A full-stack React + FastAPI web application with WebRTC video calling for onlin
 
 | Platform | URL | Status |
 |----------|-----|--------|
-| **Frontend** | [https://online-doctor-marketplace-six.vercel.app](https://online-doctor-marketplace-six.vercel.app) | ✅ Live |
+| **Frontend** | [https://online-doctor-market-place-mbzv.vercel.app](https://online-doctor-market-place-mbzv.vercel.app) | ✅ Live |
 | **Backend** | [https://doc-health-api.onrender.com](https://doc-health-api.onrender.com) | ✅ Live |
 | **API Docs** | [https://doc-health-api.onrender.com/docs](https://doc-health-api.onrender.com/docs) | ✅ Available |
 
