@@ -1,18 +1,5 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "client/package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "client/(?<path>.*)",
-      "dest": "/client/$path"
-    }
-  ]
+  "buildCommand": "npm --prefix client run build",
+  "outputDirectory": "client/dist"
 }
+
