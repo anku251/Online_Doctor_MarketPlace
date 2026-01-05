@@ -252,6 +252,5 @@ VITE_API_URL=http://localhost:8000  # Local
 
 MIT License — Feel free to use this project for learning and commercial purposes!
 
----
 
-**Built with ❤️ by Anku | 2026**
+
