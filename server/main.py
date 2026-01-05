@@ -7,13 +7,17 @@ from pydantic import BaseModel
 
 app = FastAPI(title="Doc Health API")
 
-# CORS for local dev
+# CORS configuration - allow frontend URLs
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
+    allow_origins=[
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+        "https://online-doctor-marketplace-six.vercel.app",
+        "https://*.vercel.app"
+    ],
     allow_credentials=True,
-    allow_methods=["*"]
-    ,
+    allow_methods=["*"],
     allow_headers=["*"]
 )
 
